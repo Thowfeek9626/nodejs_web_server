@@ -1,0 +1,15 @@
+20240302	19:48:10	8fa6fce7-1d82-431f-bbcb-2d5ae036b09e	GET	undefined	/css/style.css
+20240302	19:49:23	5c4c8bdd-f83b-4de4-aaf8-bf43bfff7490	GET	undefined	/
+20240302	19:49:51	dffd7dda-209a-4651-9507-31715fd09321	OPTIONS	https://www.google.com	/
+20240302	19:49:51	e159dc21-cb1a-4751-bb2f-2cedd4551f23	GET	https://www.google.com	/
+20240302	19:50:23	f19032d2-0b70-4d60-a4aa-4fbb4bbaf913	OPTIONS	https://www.google.com	/
+20240302	19:50:23	b7b4b9a0-7850-4482-b9fc-01eed3e8110d	GET	https://www.google.com	/
+20240302	19:54:03	7d367166-d2a8-4ab2-978c-cf22365af781	GET	undefined	/
+20240302	19:54:03	b330565f-3109-4824-9e32-cf4d4c7330c4	GET	undefined	/css/style.css
+20240302	19:54:42	eaa96b8a-a9ca-4ace-b1b2-d2ff57c4faf8	GET	undefined	/
+20240302	19:54:48	9df438a2-dfdb-43f1-9075-8dd109cfbeef	GET	undefined	/
+20240302	19:54:48	6597036d-92c2-4e2c-b602-af64b7df4398	GET	undefined	/css/style.css
+20240302	19:55:20	d225388e-0cce-425b-bdac-84ce500b12a3	GET	undefined	/
+20240302	19:55:20	340e7e98-c05a-4898-aafb-1263c58eb569	GET	undefined	/css/style.css
+20240302	19:55:21	f271ce8b-6d69-4f68-9b9c-b4afcbd32825	GET	undefined	/
+20240302	19:55:21	6f118a1d-1d63-4361-b2a0-488812fa8e39	GET	undefined	/css/style.css
