@@ -2,10 +2,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
+const corsOptions = require('./config/corsOptions')
 const {logger} = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
+const verifyJWT = require('./middleware/verifyJWT')
+const cookieParser = require('cookie-parser');
 const PORT = process.env.PORT || 3500;
-const corsOptions = require('./config/corsOptions')
 
 // custom middleware logger
 app.use(logger)
@@ -21,13 +23,21 @@ app.use(express.urlencoded({extended:false}));
 // built-in middleware to handle json data
 app.use(express.json());
 
+//middleware for cookies
+app.use(cookieParser())
+
 //built-in middleware to serve static files
 app.use('/',express.static(path.join(__dirname,'/public')));
 app.use('/subdir',express.static(path.join(__dirname,'/public')));
 
+// routes
 app.use('/',require('./routes/root'))
 app.use('/register',require('./routes/register'))
 app.use('/auth',require('./routes/auth'))
+app.use('/refresh',require('./routes/refresh'))
+app.use('/logout',require('./routes/logout'))
+
+app.use(verifyJWT);
 app.use('/employees',require('./routes/api/employees'))
 
 app.all('*',(req,res)=>{

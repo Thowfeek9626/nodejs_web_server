@@ -52,3 +52,5 @@
 20240307	07:46:25	b5df1512-b69a-4e94-9fc3-fd317a497972	POST	undefined	/auth
 20240307	07:46:48	f6a618b6-c81a-4f23-8d4c-43685e73a602	POST	undefined	/auth
 20240307	07:48:08	ea0ae1e1-bf40-482d-aabf-342310f529f0	POST	undefined	/auth
+20240506	22:03:20	b96850d7-8c02-441b-ba6a-8e5787d2315b	GET	undefined	/users
+20240506	22:04:04	de9159d3-190a-44c3-94b9-695d2561c89c	GET	undefined	/employees
